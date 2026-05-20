@@ -54,4 +54,14 @@
 
 // console.log("2" > 1);
 // console.log("02" > 1); its because of the string is converted to number and then comparison is done so "2" is converted to 2 and "02" is converted to 2 and then comparison is done
+console.log(null>0);
+console.log(null == 0);
+console.log(null >= 0);
     
+console.log(undefined == 0);
+console.log(undefined > 0);
+console.log(undefined < 0);
+
+// === 
+
+console.log("2" === 2);
